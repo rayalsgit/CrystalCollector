@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Crystal Collector</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link to the jQuery Library -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+              integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+              crossorigin="anonymous"></script>
+    <!-- link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- link to the css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- app js -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+
+<body>
+<header class="pageheader">
+        <h1 class="text-center">Crystals Collector!</h1>        
+</header>
+
+<div class="container">
+        <div class="row">
+            <div class="col-lg-8 text-center main_divs">
+                <div id="rules" class="text-left help_div">
+                <p>You will be given a random number at the start of the game.</p>
+                
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific number of points to your total score.</p>
+                <p>You win the game by matching your total score to the random number, you lose the game if your total score goes about the random number.</p>
+
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+
+                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+                    
+                </div>
+                <div class=" text-center target_div">                 
+                  <h1 id="target">0</h1>  
+                </div>
+                <div id="gems" class="gems_div">
+                   <ul>
+                      <li><img src="assets/images/ruby.jpg" id="ruby" class="gem"></li>
+                      <li><img src="assets/images/sapphire.jpg" id="sapphire" class="gem"></li>
+                      <li><img src="assets/images/topaz.jpg" id = "topaz" class="gem"></li>
+                      <li><img src="assets/images/emerald.jpg" id="emerald" class="gem"></li>
+                    </ul> 
+                </div>
+
+                <div id="score" class="score_div">
+                    <h4>Your total score is</h4>
+                    <h2 id="total">0</h2>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 text-left main_divs">
+                <div class="tally_div">
+                    <h2 id="msg" class="funText m"></h2>
+                    <h2 id="win" class="funText w"> Wins:</h2>
+                    <h2 id="loss" class="funText l"> Losses:</h2>                    
+                </div>                
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

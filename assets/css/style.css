@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    line-height: 150%;
+    font-size: 18px;
+}
+
+.pageheader {
+    background-color: maroon;
+    color: white;
+    margin: 0px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+.h1 {
+    font-size: 26px;
+}
+
+body {
+    background-image: url("../images/bg.png");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.main_divs {
+    background-color: transparent;
+}
+
+.help_div {
+    background-color: #fbe6cd;
+    color: green;
+    margin: 10px;
+    padding: 15px 0px;
+}
+
+.target_div {
+    background-color: green;
+    color: white;
+    font-size: 60px;
+    width: 200px;
+    height: 100px;
+    padding-top: 15px;
+    margin: 30px auto;
+}
+
+.gems_div {
+    height: 100px;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.score_div {
+    background-color: teal;
+    color: white;
+    font-size: 40px;
+    width: auto;
+    height: 100px;
+    padding-top: 5px;
+    margin-top: 30px;
+}
+
+.tally_div {
+    margin: 300px auto;
+    width: 300px;
+    height: 150px;
+    background: LightSalmon;
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+}
+
+.gem {
+    width: 100px;
+    height: 100px;
+}
+
+.w {
+    color: green;
+    font-weight: bold;
+}
+
+.l {
+    color: red;
+    font-weight: bold;
+}
+
+.m {
+    color: blue;
+    font-weight: bold;
+    margin-left: 50px;
+}
